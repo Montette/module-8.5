@@ -7,7 +7,7 @@ button.addEventListener("click", function(){
     
     var area = base * height / 2;
     
-    if (area === "NaN"){
+    if (isNaN(area)){
         result.innerHTML = "Please, enter the correct data";
     } else {
         result.innerHTML = area + " cm <sup>2</sup>";
